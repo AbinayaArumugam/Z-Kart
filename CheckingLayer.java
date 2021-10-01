@@ -14,6 +14,7 @@ public class CheckingLayer {
                 ch[i]='0';
             }char character=(char) (ch[i]+1);
             encrypted+=character;
+            System.out.println("Just testing the checkin");
         }
         return encrypted;
     }
